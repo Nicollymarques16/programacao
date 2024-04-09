@@ -35,7 +35,12 @@ nav a{
     text-decoration: none;
 }
 
-.produtos li{
+nav a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.produtos{
     width: 940px;
     margin: 0 auto;
 }
@@ -44,8 +49,21 @@ nav a{
     display: inline-block;
     text-align: center;
     vertical-align: top;
+    margin:0 1.2%;
+    padding: 30px 20px;
+    border: black;
+    border-radius: 10px;
 }
-
+.produtos li:hover{
+    border-color: cornflowerblue
+}
+.produtos li:hover h2{
+    font-size: 31px;
+}
+.produtos h2{
+    font-size: 30px;
+    
+}
 footer{
     text-align:center;
     background: url("bg.jpg");
