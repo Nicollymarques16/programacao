@@ -70,3 +70,28 @@ form label,form p{
 .checkbox{
     margin: 20px;
 }
+
+.enviar{
+width: 40%;
+padding: 15px 0;
+background: orange;
+color: white;
+font-weight:bold ;
+font-size: 18px;
+border: none;
+border-radius: ;
+}
+table{
+    margin: 20px o 20px;
+}
+
+thead{
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+}
+
+td, tr{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
